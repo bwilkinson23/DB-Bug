@@ -2,6 +2,7 @@
 This is documentation on a bug I found while using Tutorials Point Sqlite guide for Android
 
 ##Scenario:##
+
 If you were to add 2 'contacts', the 2nd one
 would have the ID of 2. 
 
