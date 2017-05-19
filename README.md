@@ -61,13 +61,13 @@ as follows:
 (note: variable names differ)
 
 ```
-        mydb = new DBHelper(this);
+        mydb = new DBHelper(this); //added this line
         obj.setOnItemClickListener(new OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> displayText, View listXML, int listPosition,long listRowID) {
                 // TODO Auto-generated method stub
 
-                int id_To_Search = mydb.getRowId(listPosition);
+                int id_To_Search = mydb.getRowId(listPosition); //modified this line
 
                 Bundle dataBundle = new Bundle();
                 dataBundle.putInt("id", id_To_Search);
